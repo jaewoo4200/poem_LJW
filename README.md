@@ -1,2 +1,2 @@
-# poet_LJW
+# poem_LJW
 Korean Poet written by LJW(will be constantly updated)
