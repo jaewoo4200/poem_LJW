@@ -1,5 +1,5 @@
 # poem_LJW
-Korean Poet written by LJW(will be constantly updated)  
+Korean poems written by LJW(will be constantly updated)  
 
 This will print random poem from dictionary - 'LJW.random()'  
 To see all poems, please type 'LJW.all()'
