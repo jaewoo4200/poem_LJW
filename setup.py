@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="LJW",
-    version="0.0.1",
+    version="0.0.6",
     author="Jaewoo Lee",
     author_email="doni04164@gmail.com",
     description="Korean poets written by LJW",
@@ -13,7 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jaewoo4200/poem_LJW",
     python_requires = '>=3.7',
-    packages=['poems'],
+    #packages=setuptools.find_packages(),
+    packages=['LJW'],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",

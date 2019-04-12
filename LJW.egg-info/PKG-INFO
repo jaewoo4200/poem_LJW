@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: LJW
+Version: 0.0.6
+Summary: Korean poets written by LJW
+Home-page: https://github.com/jaewoo4200/poem_LJW
+Author: Jaewoo Lee
+Author-email: doni04164@gmail.com
+License: UNKNOWN
+Description: # poem_LJW
+        Korean poems written by LJW(will be constantly updated)  
+        
+        This will print random poem from dictionary - 'LJW.random()'  
+        To see all poems, please type 'LJW.all()'
+        
+        Please use as 'from LJW import *'  
+        If you've already imported with 'import LJW' please use as 'LJW.LJW.all()' or 'LJW.LJW.random()'
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
