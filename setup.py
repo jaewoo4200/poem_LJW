@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jaewoo4200/poem_LJW",
     python_requires = '>=3.7',
-    packages=setuptools.find_packages(),
+    packages=['poems'],
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
