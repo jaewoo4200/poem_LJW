@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="LJW",
-    version="0.0.6",
+    version="1.0.0",
     author="Jaewoo Lee",
     author_email="doni04164@gmail.com",
     description="Korean poets written by LJW",

@@ -150,3 +150,13 @@ class LJW(object):
     for i in Poets:
       print(i)
       print("\n")
+
+def random():
+  """랜덤으로 시 출력 / Print Random Poem"""
+  print(r.choice(Poets))
+
+def everything():
+  """모든 시 출력 / Print All Poems"""
+  for i in Poets:
+    print(i)
+    print("\n")

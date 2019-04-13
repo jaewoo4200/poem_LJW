@@ -1,1 +1,1 @@
-﻿name = "LJW"
+﻿from .LJW import *
