@@ -8,5 +8,7 @@ To see all poems, please type 'LJW.everything()'
 Please use as 'from LJW import *'  
 If you've already imported with 'import LJW' please use as 'LJW.LJW.all()' or 'LJW.LJW.random()'
 
+수록되어 있는 시 : '내가 그때 만약', '벚꽃', '카톡', 'IDC', '썸', '너가 그리워지는 밤'  
+
 -----1.0.0 Update-----  
 You can just use 'import LJW' and 'LJW.random()' or 'LJW.everything()'  
