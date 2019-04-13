@@ -1,6 +1,7 @@
 README.md
 setup.py
 LJW/LJW.py
+LJW/LJW_legacy.py
 LJW/__init__.py
 LJW.egg-info/PKG-INFO
 LJW.egg-info/SOURCES.txt

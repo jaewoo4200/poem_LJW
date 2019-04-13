@@ -1,1 +1,1 @@
-﻿from .LJW import *
+﻿from .LJW_legacy import *

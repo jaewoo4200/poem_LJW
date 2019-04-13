@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: LJW
-Version: 1.0.2
+Version: 1.1.0
 Summary: Korean poets written by LJW
 Home-page: https://github.com/jaewoo4200/poem_LJW
 Author: Jaewoo Lee
@@ -14,14 +14,17 @@ Description: # poem_LJW
         To see all poems, please type 'LJW.everything()'  
         
         Please use as 'from LJW import *'  
-        If you've already imported with 'import LJW' please use as 'LJW.LJW.all()' or 'LJW.LJW.random()'
+        If you've already imported with 'import LJW' please use as 'LJW.LJW.all()' or 'LJW.LJW.random()'  
         
-        -----1.0.0 Update-----  
+        
+        ----- 1.0.0 Update -----  
         You can just use 'import LJW' and 'LJW.random()' or 'LJW.everything()'  
         
+        ----- 1.1.0 Update -----  
+        Update for Legacy Support! Now you can run this module over any version python 3!  
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.0
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.7
+Requires-Python: >=3.0
 Description-Content-Type: text/markdown
