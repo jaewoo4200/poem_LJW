@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="LJW",
-    version="1.1.0",
+    version="2.0.0",
     author="Jaewoo Lee",
     author_email="doni04164@gmail.com",
-    description="Korean poets written by LJW",
+    description="All About LJW",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jaewoo4200/poem_LJW",
