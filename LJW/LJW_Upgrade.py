@@ -211,7 +211,7 @@ class LJW(object):
 
 def recommend():
   import webbrowser
-  webbrowser.open("pythong.org")
+  webbrowser.open("http://pythong.org/")
   print(" PYTHONG,\n  YAH!!")
 
 def 생일():
@@ -338,7 +338,7 @@ class HeroLJW(object):
       time.sleep(.9)
       self.__lprint("# 너도 대단하다\n")
       time.sleep(.9)
-      self.__lprint("# .진짜로 4시간을 기다릴 줄이야...\n")
+      self.__lprint("# .진짜로 2시간을 기다릴 줄이야...\n")
       time.sleep(.9)
       self.__lprint("# ......\n")
       time.sleep(.9)

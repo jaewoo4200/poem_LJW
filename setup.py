@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="LJW",
-    version="2.0.0",
+    version="2.0.1",
     author="Jaewoo Lee",
     author_email="doni04164@gmail.com",
     description="All About LJW",
