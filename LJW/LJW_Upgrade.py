@@ -162,6 +162,48 @@ I DO Care
 한 뼘의 거리
 """,
 """
+스토킹
+        -LJW
+
+오늘도 그녀는 예뻤다
+
+그녀의 자는 모습도
+그녀의 공부하는 모습도
+그녀가 딴짓하는 모습도
+그녀가 멍 때리는 모습도
+
+모두
+사무치게 아름다웠다
+""",
+"""
+너가 자꾸만 신경쓰이면
+                  -LJW
+왠지 모르게
+요즘따라
+너가 신경쓰여
+
+왠지 모르게
+너가 남자랑 있을때
+질투가 나
+
+너가 웃을때면
+나 때문인가 라는
+착각도 해보고
+
+너가 울상이면
+왜 슬플까 라는
+걱정도 해
+
+너가 자꾸만
+신경쓰여
+
+좋아해
+라는
+말
+
+건네보고 싶어
+""",
+"""
 너가 그리워지는 밤
 		-LJW
 
@@ -448,6 +490,11 @@ class HeroLJW(object):
 그대의 이름은 무엇인가!""")
     time.sleep(.4)
     self.ENEMY_NAME = input("\n*적의 이름을 입력해주세요 : ")
+    if self.ENEMY_NAME == "이재우":
+      self.__lprint("\n영웅을 모욕하는 자, 그 또한 모욕당하리라!")
+      import webbrowser
+      webbrowser.open("http://pythong.org/")
+      
     self.ENEMY_HP = self.ENEMY_SAVE_HP + self.ENEMY_NUMBER*10
     self.ENEMY_ATK = self.ENEMY_SAVE_ATK + self.ENEMY_NUMBER*10
 
@@ -465,7 +512,7 @@ LJW-   ATK    : {self.ATK}
         skill = int(input(f"""
 1. 공격 : {self.ATK}만큼 데미지를 가한다.
 2. 공격력 상승 : SP를 1 소모하여 공격력10을 얻는다. 현재 공격력 {self.ATK}
-3. 초회복 : SP를 3 소모하여 HP를 전체 생명력의 80%로 바꾼다. 사용 시 HP {self.MAX_HP*0.8}
+3. 초회복 : SP를 3 소모하여 HP를 전체 생명력의 80%로 바꾼다. 사용 시 HP {int(self.MAX_HP*0.8)}
 4. 최대 HP 증가 : SP를 3 소모하여 최대 HP를 30 늘린다 사용이 최대 HP {self.MAX_HP+30}
 
 숫자로 스킬을 입력하여 주세요.
@@ -479,7 +526,7 @@ LJW-   ATK    : {self.ATK}
           print(f"공격력이 {self.ATK}이/가 되었다")
         elif skill == 3 and self.SP > 1:
           self.SP -= 2
-          self.HP = self.MAX_HP*0.8
+          self.HP = int(self.MAX_HP*0.8)
           print(f"HP를 회복했다!")
         elif skill == 4 and self.SP > 1:
           self.SP -= 2
@@ -519,7 +566,7 @@ def __writeFile(number):
 
 def Battle():
   try:
-    LJW = HeroLJW(100, 100, 10, 0)
+    LJW = HeroLJW(100, 100, 10, 10)
     LJW.startLine()
     LJW.born()
     time.sleep(2)

@@ -1,5 +1,6 @@
 README.md
 setup.py
+LJW/HeroLJW.py
 LJW/LJW_Upgrade.py
 LJW/LJW_legacy.py
 LJW/LJW_old.py
